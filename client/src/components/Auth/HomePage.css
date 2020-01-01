@@ -1,0 +1,103 @@
+
+
+#header-showcase{
+    margin-top: 0px;
+    max-height: 500px;
+    text-align: center;
+    color:black;
+    font-size: x-large
+}
+#header-showcase .header-image{
+    background: #333 url("../../images/world.jpeg");
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 100%;
+    height: 550px;
+    opacity: 0.6;
+    top:-21px;
+    padding-bottom: 10px;
+}
+#header-showcase h1{
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+#header-showcase small{
+    font-weight: bolder;
+    font-style: oblique;
+    color:black;
+    font-size: 20px;
+}
+#pHead{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(19, 5, 5);
+    font-weight: bolder;
+    font-size: 20px;
+}
+#sectiona, #sectionb{
+    padding-bottom: 1em;
+    margin:0
+}
+#sectiona h3{
+    margin-top: 70px;
+}
+h3{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-bottom: 20ps;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+   font-size: large;  
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding: 0 2em;
+   text-align: center;
+}
+
+#sectionb li{
+    text-align: center;
+    padding:0;
+    margin-bottom: 3em;
+}
+.card{
+    background-color: ghostwhite;
+    height: 450px;
+    margin-bottom: 1em
+}
+.card img{
+    padding-top: 3em;
+    width: 70%;
+    height: aut0;
+}
+.card-content{
+    margin-top: -200px;
+    bottom: 550px;
+    padding-bottom: 30px;
+}
+.box{
+    margin-top: -250px;
+  padding-bottom: 5em
+}
+
+.box p{
+    padding-bottom: 30px;
+}
+
+.box a{
+    color: blue;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#sectionc{
+    margin-top: 5em;
+}
+
+

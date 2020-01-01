@@ -5,7 +5,7 @@ const cors = require("cors")
 const valSchema= require("./validation/contactVal")
 const contactSchema= require("./model/contact")
 
-const port = 2000
+const port =process.env.PORT || 2000
 
 connectDB()
 app.use(express.json({extended: false}))

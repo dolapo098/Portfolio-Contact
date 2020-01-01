@@ -1,0 +1,28 @@
+.cardd{
+    width: 50%;
+    margin-top: 30px;
+    background-color: lightcyan;
+    margin-left: 110px;
+    height: 50px;
+}
+
+.cardd .img{
+    margin-left: 12px;
+}
+
+.login{
+    margin-top: 10px;
+    font-size: large;
+}
+
+.success{
+    width: 40%;
+}
+.primary{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.gitLayout{
+    margin-top: -200px;
+}

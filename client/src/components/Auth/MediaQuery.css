@@ -1,0 +1,91 @@
+
+
+@media (min-width: 700px){
+
+    #home{
+        float: left;
+    }
+
+    #pHead{
+        padding-top: 80px;
+    }
+    #footerContact{
+        padding-top: -1000px;
+    }
+    .card{
+        height: 550px;
+    }
+    .card img{
+        padding-top: 3em;
+        width: 50%;
+        height: 250px;
+    }
+
+    #cx{
+        padding-top: 3em;
+        width: 30%;
+        height: 250px;
+    }
+    
+    .card-content{
+        margin-top: -200px;
+        padding-bottom: 30px;
+    }
+    #sectionc{
+        margin-top: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4.5em;
+        column-gap: 10px;
+    }
+    #sectionc .box{
+        margin-top: -150px;
+        border: 2px black dotted;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #sectionc .box h3{
+      padding-top: 2em;
+    }
+
+    /* Skills Page */
+    .chart{
+        position: relative;
+        margin-left: 280px;
+    }
+
+    /*Contact */
+       .my-input{
+        width:40%;
+        height: 30px;
+        padding-bottom: 60px;
+        margin-left: 150px;
+    }
+    .contactPage{
+        position: relative;
+      
+    }  
+    .fontAwesome{
+      display: none;
+      }
+     .fontAwesome2{
+        display: none;
+    }
+    .fontAwesome3{
+        display: none;
+    }  
+
+    /*GitLayou */
+    .cardd{
+        position: relative;
+        margin-top: 30px;
+        background-color: lightcyan;
+        left: 350px;
+       max-width: 400px
+    }
+    .cardd .img{
+
+    }
+
+} 

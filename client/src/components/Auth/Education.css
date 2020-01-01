@@ -1,0 +1,12 @@
+
+.flex{
+    display: flex;
+    flex: 1fr 1fr;   
+    border: 1px black thin;
+}
+
+
+ .flex div{
+    padding-top: 150PX;
+    border: 1px black thin;
+}

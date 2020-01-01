@@ -1,0 +1,51 @@
+
+label{
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+.my-form{
+    margin-top: 8em;
+}
+.my-input{
+    margin-bottom: 1em;
+}
+input,textarea{
+    width:60%;
+    height: 30px;
+    border: 1px solid;
+}
+button{
+    width: 30%;
+    height: 40px;
+}
+textarea{
+    min-height: 60px;
+}
+
+.contactpage{
+    position: relative;
+    bottom: 30px;
+    background: bisque;
+}
+.fontAwesome{
+  position: absolute;
+  top:650px;
+  right: 150px;
+
+}
+.fontAwesome2{
+  position: absolute;
+  top: 740px;
+  right: 90px;
+}
+.fontAwesome3{
+    position: absolute;
+    top:820px;
+    right: 75px;  
+} 
+
+.alert{
+    color: green;
+    font-weight: bolder;
+}
