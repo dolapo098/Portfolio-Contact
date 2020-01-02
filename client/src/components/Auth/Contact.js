@@ -29,9 +29,9 @@ export default class Contact extends Component {
         e.preventDefault()
         const{messageDelivered, ...rest}= this.state
         console.log(rest);
-        // const url= "http://localhost:2000/contactMe"
+        // const url= "http://localhost:2000/contactMe" 
         try{
-            const response= await axios.post("http://localhost:2000/contactMe",rest)
+            const response= await axios.post("/api/contactMe" ,rest)
             const data= response.data 
             console.log(data);
             if(data){
@@ -40,7 +40,7 @@ export default class Contact extends Component {
                 })
             }
         }catch(err){
-            console.log(err);
+            console.error(err);
         }
         
 
