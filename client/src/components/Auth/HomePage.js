@@ -3,7 +3,7 @@
  import React from 'react'
  import "./HomePage.css"
  import "./MediaQuery.css"
-import Experience from './Experience'
+
  
  export default function HomePage(props) {
 

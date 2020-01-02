@@ -2,10 +2,11 @@ const express = require('express');
 const app = express()
 const connectDB = require('./config/db')
 const cors = require("cors")
+const path = require("path");
 const valSchema= require("./validation/contactVal")
 const contactSchema= require("./model/contact")
 
-const port =process.env.PORT || 2000
+const Port =process.env.PORT || 2000
 
 connectDB()
 app.use(express.json({extended: false}))
@@ -38,11 +39,19 @@ app.post("/contactMe", async(req,res)=>{
     }
 })
 
-app.listen(port,err=>{
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static( "client/build" ));
+
+    app.get("*", (req,res)=>{
+        res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
+    })
+}
+
+app.listen(Port,err=>{
     if(err){
         console.log('Server not connecting');
     }
     else{
-        console.log(`Server now listening on port ${port}`);
+        console.log(`Server now listening on port ${Port}`);
     }
 })
